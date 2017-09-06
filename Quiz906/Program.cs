@@ -13,6 +13,11 @@ namespace Quiz906
     {
         static void Main(string[] args)
         {
+            Console.Write("Please type out any sentence: ");
+            string input = Console.ReadLine();
+            Console.WriteLine(input.Length);
+            var words = input.Split(' ');
+            Console.WriteLine(words.);
         }
     }
 }
