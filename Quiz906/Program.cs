@@ -13,6 +13,15 @@ namespace Quiz906
 {
     class Program
     {
+        struct Employees
+        {
+            public string a;
+        }
+        struct Birthdays
+        {
+            public int b;
+        }
+
         static void Main(string[] args)
         {
         }
