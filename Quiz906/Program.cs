@@ -8,22 +8,19 @@ namespace Quiz906
 {
     class Program
     {
-
-
-
         static void Main(string[] args)
         {
             Sum tree = new Sum();
             Console.WriteLine(tree.GetSum(3, 4));
         }
-        public class Sum
+        public struct Sum
         {
             public int x;
             public int y;
 
-            public Sum()
-            {
-            }
+            //public Sum()
+            //{
+            //}
             public int GetSum(int x, int y)
             {
                 return x + y;
