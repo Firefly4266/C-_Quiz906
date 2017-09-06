@@ -16,7 +16,6 @@ namespace Quiz906
             string input = Console.ReadLine().ToLower();
             int con = 0;
             int vow = 0;
-            int non = 0;
 
             foreach (char i in input)
             {
@@ -27,7 +26,6 @@ namespace Quiz906
                 }
                 else if (!char.IsLetter(i))
                 {
-                    non--;
                 }
                 else
                     con++;
