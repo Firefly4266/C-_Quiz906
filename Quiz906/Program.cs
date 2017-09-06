@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 /* 2)   Write a simple structure that contains 2 integer variables.Create a
         class that will use those two variables by initializing them then
@@ -12,8 +8,27 @@ namespace Quiz906
 {
     class Program
     {
+
+
+
         static void Main(string[] args)
         {
+            Sum tree = new Sum();
+            Console.WriteLine(tree.GetSum(3, 4));
+        }
+        public class Sum
+        {
+            public int x;
+            public int y;
+
+            public Sum()
+            {
+            }
+            public int GetSum(int x, int y)
+            {
+                return x + y;
+            }
         }
     }
 }
+
