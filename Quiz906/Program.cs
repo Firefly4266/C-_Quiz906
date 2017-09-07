@@ -17,10 +17,6 @@ namespace Quiz906
         {
             public int x;
             public int y;
-
-            //public Sum()
-            //{
-            //}
             public int GetSum(int x, int y)
             {
                 return x + y;
