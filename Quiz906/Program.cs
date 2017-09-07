@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+
 
 /* 4)	Write a program that will accept a sentence from a user.Return to the
         user the number of vowels and consonants within that string.  Be sure to
